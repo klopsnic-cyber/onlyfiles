@@ -1,8 +1,8 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "Speicherblick",
+  "productName": "OF OnlyFiles",
   "version": "0.1.0",
-  "identifier": "de.infralatis.speicherblick",
+  "identifier": "de.infralatis.onlyfiles",
   "build": {
     "beforeDevCommand": "npm run dev",
     "devUrl": "http://localhost:1420",
@@ -12,13 +12,13 @@
   "app": {
     "windows": [
       {
-        "title": "Speicherblick",
+        "title": "OF OnlyFiles",
         "width": 1280,
         "height": 820,
         "minWidth": 960,
         "minHeight": 640,
         "theme": "Light",
-        "backgroundColor": "#F5F6FB",
+        "backgroundColor": "#F4F8FC",
         "titleBarStyle": "Overlay",
         "hiddenTitle": true,
         "center": true
@@ -30,11 +30,33 @@
   },
   "bundle": {
     "active": true,
-    "targets": ["app", "dmg"],
-    "icon": ["icons/32x32.png", "icons/128x128.png", "icons/128x128@2x.png", "icons/icon.icns", "icons/icon.ico"],
+    "targets": [
+      "app",
+      "dmg"
+    ],
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
     "publisher": "infralatis",
     "category": "Utility",
     "shortDescription": "Speicherplatz-Analyse für macOS",
-    "macOS": { "minimumSystemVersion": "11.0", "signingIdentity": "-" }
+    "macOS": {
+      "minimumSystemVersion": "11.0",
+      "signingIdentity": "-"
+    },
+    "createUpdaterArtifacts": true
+  },
+  "mainBinaryName": "OnlyFiles",
+  "plugins": {
+    "updater": {
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEI3OUQyRkMyQUY2Mzk5ODAKUldTQW1XT3Z3aStkdHdhbWpqblMxdVRlZjV6YmIzY2NUcWNMQnAycUNsQnEwUjJISTVEc1ZUdzAK",
+      "endpoints": [
+        "https://github.com/klopsnic-cyber/onlyfiles/releases/latest/download/latest.json"
+      ]
+    }
   }
 }

@@ -1,19 +1,19 @@
-/* Speicherblick – hell, ruhig, farbige Akzente nur für Daten. */
+/* OF OnlyFiles – hell, ruhig, farbige Akzente nur für Daten. */
 @import "@fontsource/inter/400.css";
 @import "@fontsource/inter/500.css";
 @import "@fontsource/inter/600.css";
 @import "@fontsource/inter/700.css";
 
 :root {
-  --bg: #f5f6fb;
+  --bg: #f4f8fc;
   --surface: #ffffff;
   --surface-2: #f0f2f8;
   --border: #e4e7f0;
   --text: #1d2033;
   --muted: #7a8099;
-  --accent: #6d5cff;
-  --accent-2: #4f8cff;
-  --grad: linear-gradient(135deg, #7c5cff, #4f8cff);
+  --accent: #0a9be0;
+  --accent-2: #0077d9;
+  --grad: linear-gradient(135deg, #00b4f5, #0077d9);
   --shadow: 0 1px 2px rgba(30, 35, 70, 0.04), 0 8px 24px rgba(30, 35, 70, 0.07);
   --shadow-lg: 0 2px 4px rgba(30, 35, 70, 0.05), 0 18px 40px rgba(30, 35, 70, 0.12);
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
@@ -33,7 +33,7 @@ button {
 }
 button:hover { box-shadow: var(--shadow); }
 button:active { transform: scale(0.97); }
-button.primary { background: var(--grad); color: #fff; border: none; box-shadow: 0 6px 18px rgba(109, 92, 255, 0.35); }
+button.primary { background: var(--grad); color: #fff; border: none; box-shadow: 0 6px 18px rgba(0, 140, 230, 0.35); }
 button.ghost { background: transparent; border-color: transparent; box-shadow: none; }
 button.ghost:hover { background: var(--surface-2); }
 .card { background: var(--surface); border: 1px solid var(--border); border-radius: 18px; box-shadow: var(--shadow); }

@@ -1,4 +1,4 @@
-# Speicherblick
+# OF OnlyFiles
 
 Zeigt wie TreeSize, welche Ordner und Dateien auf dem Mac den Platz belegen: Baumliste mit Balken, Ringdiagramm zum Hineinzoomen, die 100 größten Dateien.
 

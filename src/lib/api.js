@@ -21,4 +21,4 @@ export const num = (n) => Math.round(n).toLocaleString("de-DE");
 export const pct = (a, b) => (b ? (a / b) * 100 : 0);
 export const pctText = (p) => `${p.toLocaleString("de-DE", { maximumFractionDigits: p < 10 ? 1 : 0 })} %`;
 
-export const PALETTE = ["#7c5cff", "#4f8cff", "#22c3ee", "#2dd4bf", "#34d399", "#a3d93a", "#fbbf24", "#ff9f6b", "#ff6b9a", "#d96bf0"];
+export const PALETTE = ["#0a9be0", "#7c5cff", "#22c3ee", "#2dd4bf", "#34d399", "#a3d93a", "#fbbf24", "#ff9f6b", "#ff6b9a", "#d96bf0"];

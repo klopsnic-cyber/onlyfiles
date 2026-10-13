@@ -37,7 +37,7 @@
     <div class="ring">
       <svg viewBox="0 0 220 220">
         <defs>
-          <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7c5cff" /><stop offset="1" stop-color="#22c3ee" /></linearGradient>
+          <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00b4f5" /><stop offset="1" stop-color="#0077d9" /></linearGradient>
         </defs>
         <circle cx="110" cy="110" r={R} class="track" />
         <circle cx="110" cy="110" r={R} class="bar" stroke-dasharray="{C * share.current} {C}" />
@@ -81,7 +81,7 @@
   .ring { position: relative; width: 210px; height: 210px; flex-shrink: 0; }
   .ring svg { width: 100%; height: 100%; transform: rotate(-90deg); }
   .track { fill: none; stroke: #e8eaf3; stroke-width: 20; }
-  .bar { fill: none; stroke: url(#g); stroke-width: 20; stroke-linecap: round; filter: drop-shadow(0 6px 10px rgba(109, 92, 255, 0.3)); }
+  .bar { fill: none; stroke: url(#g); stroke-width: 20; stroke-linecap: round; filter: drop-shadow(0 6px 10px rgba(0, 140, 230, 0.3)); }
   .center { position: absolute; inset: 0; display: grid; place-content: center; text-align: center; }
   .center b { font-size: 34px; font-weight: 700; letter-spacing: -0.02em; }
   .intro h1 { font-size: 30px; margin-bottom: 10px; letter-spacing: -0.025em; }

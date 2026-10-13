@@ -51,7 +51,7 @@
   {#if done.denied > 0}
     <div class="warn card">
       <ShieldAlert size={18} />
-      <span><b>{num(done.denied)} Ordner</b> konnten nicht gelesen werden; ihr Inhalt fehlt in der Summe. Mit „Festplattenvollzugriff“ für Speicherblick wird alles gezählt.</span>
+      <span><b>{num(done.denied)} Ordner</b> konnten nicht gelesen werden; ihr Inhalt fehlt in der Summe. Mit „Festplattenvollzugriff“ für OF OnlyFiles wird alles gezählt.</span>
       <button onclick={() => api.openPrivacySettings()}>Einstellungen öffnen</button>
     </div>
   {/if}

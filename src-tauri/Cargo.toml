@@ -1,6 +1,6 @@
 [package]
 name = "onlyfiles"
-version = "0.1.0"
+version = "0.2.0"
 description = "OF OnlyFiles: zeigt, welche Ordner und Dateien den Platz belegen"
 authors = ["infralatis"]
 license = "MIT"
